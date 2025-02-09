@@ -13,5 +13,6 @@ min=int(min)
 
 put= pywhatkit.sendwhatmsg(names, message, hour, min) #phone_no: _, message:_, time_hour:_, time_min:_
 
+print("this is a change made after the frts github commit")
 
 #the time must be in 24 hour format
