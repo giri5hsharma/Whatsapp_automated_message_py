@@ -11,8 +11,7 @@ min= input("\nplease enter the minute of the hour at which you want to send the 
 min=int(min)
 
 
-put= pywhatkit.sendwhatmsg(names, message, hour, min
-                    ) #phone_no: _, message:_, time_hour:_, time_min:_
+put= pywhatkit.sendwhatmsg(names, message, hour, min) #phone_no: _, message:_, time_hour:_, time_min:_
 
 
 #the time must be in 24 hour format
